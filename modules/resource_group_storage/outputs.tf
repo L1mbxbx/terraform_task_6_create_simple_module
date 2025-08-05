@@ -5,5 +5,5 @@ output "resource_group_id" {
 
 output "storage_account_id" {
     description = "The ID of the storage account"
-    value = azurerm_storage_account.name.id 
+    value = azurerm_storage_account.name.id
 }
